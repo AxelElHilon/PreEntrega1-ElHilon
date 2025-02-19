@@ -1,4 +1,5 @@
 import React from "react";
+import CartWidget from "./CartWidget"; // Importamos el CartWidget para usarlo en el NavBar
 
 const NavBar = () => {
   return (
@@ -10,6 +11,8 @@ const NavBar = () => {
           <li className="nav-item"><a className="nav-link text-white" href="#">Pantalones</a></li>
           <li className="nav-item"><a className="nav-link text-white" href="#">Zapatillas</a></li>
         </ul>
+        <CartWidget /> {/* Aquí se agrega el CartWidget */}
+
       </div>
     </nav>
   );
