@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./components/Navbar";
 import 'font-awesome/css/font-awesome.min.css';
 import ItemListContainer from "./components/ItemListContainer";
+import './App.css';
 
 /* Componentes 
 - Son Funciones
