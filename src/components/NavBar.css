@@ -1,0 +1,44 @@
+/* Estilos para Navbar */
+.navbar {
+    background-color: #343a40;
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f8f9fa;
+    text-transform: uppercase;
+  }
+  
+  .navbar-brand:hover {
+    color: #ff6f61;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    color: #f8f9fa;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+  }
+  
+  .nav-link:hover {
+    color: #ff6f61;
+  }
+  
+  .cart-widget {
+    color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  
+  .cart-widget .badge {
+    background-color: #ff6f61;
+    margin-left: 8px;
+    font-size: 1rem;
+  }
+  
